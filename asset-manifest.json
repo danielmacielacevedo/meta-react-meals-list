@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/meta-react-meals-list/static/css/main.d53e68c5.css",
+    "main.js": "/meta-react-meals-list/static/js/main.dbcacbbc.js",
+    "static/js/787.e58e04be.chunk.js": "/meta-react-meals-list/static/js/787.e58e04be.chunk.js",
+    "index.html": "/meta-react-meals-list/index.html",
+    "main.d53e68c5.css.map": "/meta-react-meals-list/static/css/main.d53e68c5.css.map",
+    "main.dbcacbbc.js.map": "/meta-react-meals-list/static/js/main.dbcacbbc.js.map",
+    "787.e58e04be.chunk.js.map": "/meta-react-meals-list/static/js/787.e58e04be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d53e68c5.css",
+    "static/js/main.dbcacbbc.js"
+  ]
+}
