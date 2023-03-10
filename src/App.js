@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import MealsProvider from "./providers/MealsProvider";
+import MealsList from "./components/MealsList";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* Start Meal List Code */}
+      <div className="MealListContent">
+        <MealsProvider>
+          <MealsList />
+          <Counter />
+        </MealsProvider>
+      </div>
+      {/* End Meal List Code */}
+
+      <div className="PoweredByDanielMacielAcevedo">
+        <p>Powered by Daniel Maciel Acevedo</p>
+        <a href="https://google.com/" ><span></span>ver codigo</a>
+        
+      </div>
     </div>
   );
 }
